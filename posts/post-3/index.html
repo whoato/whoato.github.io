@@ -35,18 +35,30 @@
 <body>
   <header class="menus">
   
-  <a href="http://whoato.github.io">My personal blog</a>
-  
 
   <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/about/"> About</a>
     
   </nav>
 
   <nav class="fontawesome">
     
+    <a href="https://github.com/RainerChiang" target="_blank">
+        <i title="GitHub" class="fab fa-github"></i>
+    </a>
+    
+    
+    <a href="http://whoato.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
     
   </nav>
   
+  
+  <div class="hidden description">A simple and concise hugo theme.</div>
   
 </header>
 
@@ -73,6 +85,15 @@
     
 
     
+      <i class="far fa-clock"></i>
+      
+      
+      
+
+      
+      36 s
+      &nbsp;
+    
     </div>
   </header>
 
@@ -92,7 +113,13 @@
 </ul>
 <p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
 
+
+
 <h3 id="examples">Examples</h3>
+
+<p>
+Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+</p>
 
 <p>Block math:
 $$
@@ -161,6 +188,12 @@ $$</p>
   
 </div>
 
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
 
 
 </html>
