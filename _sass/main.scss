@@ -1,3 +1,66 @@
+.title {
+	text-align: center;
+	color: #82d5a0;
+	font-size: 10rem;
+	letter-spacing: 0.05em;
+	font-family: 'Montserrat', 'malgun gothic', 'Helvetica Neue', "Arial", sans-serif;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-shadow: 0.1em 0.1em #82d5a0;
+	margin-top: 3rem;
+	margin-bottom: -1rem;
+	font-weight: bold;
+}
+.title a {
+	color: #102029;
+}
+.title a:hover {
+	color: #102029;
+}
+.navlinks {
+	text-align: right;
+	margin-bottom: 0.1rem;
+	font-weight: bold;
+	font-size: 2rem;
+	text-shadow: 0.1em 0.1em #82d5a0;
+	text-transform: uppercase;
+	font-family: 'Montserrat', 'malgun gothic', 'Helvetica Neue', "Arial", sans-serif;
+}
+.navlinks> *:hover {
+	text-decoration: none;
+}
 .current {
-	color: green;
+	color: #102029;
+}
+.others {
+	color: #306685;
+}
+html {
+	background-color: OldLace;
+}
+.wrapper{ /* 본문 내용 */
+		width: 50rem;
+		margin: auto;
+		padding: 0.1rem 0;
+}
+a {
+	text-decoration: none;
+	color: #82d5a0;
+}
+a:hover {
+	text-decoration: underline;
+}
+.contents {
+	color: #102029;
+	font-family: 'Nanum Gothic', sans-serif;
+	padding: 1rem;
+	margin: auto;
+	line-height: 1.5em;
+}
+p {
+	color: #102029;
+	text-align: justify;
+	font-family: 'Nanum Myeongjo', serif;
+	padding: 0.1rem 0;
+	margin: 0.6rem;
 }

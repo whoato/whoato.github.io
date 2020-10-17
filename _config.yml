@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kafka Ape
-email: whoato@gmail.com
+title: "Kafka Ape"
+email: "whoato@gmail.com"
+disqus: ""
+google_analytics: "UA-180756336-1"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -34,7 +36,7 @@ collections:
         output: true
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hamilton
 plugins:
   - jekyll-feed
   - jekyll-sitemap

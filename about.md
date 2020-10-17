@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-# About page
+# Kafka Ape
 
-This page tells you a little bit about me.
+Location: Academy
