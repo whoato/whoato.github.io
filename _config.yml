@@ -36,7 +36,7 @@ collections:
         output: true
 
 # Build settings
-theme: jekyll-theme-hamilton
+# theme: jekyll-theme-hamilton
 plugins:
   - jekyll-feed
   - jekyll-sitemap
