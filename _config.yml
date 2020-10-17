@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "kafka ape"
   location         : "academy"
-  email            : whoato@gmail.com
+  email            : # whoato@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
