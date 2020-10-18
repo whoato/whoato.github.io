@@ -1,9 +1,15 @@
 <!doctype html>
 <html>
-  {% include header.html %}
+  <head>
+	<meta charset="utf-8">
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ root_url }}/assets/css/styles.css">
+	<link rel="stylesheet" href="{{ root_url }}/assets/css/syntax.css">
+  </head>
+  
   <body>
 	<div class="wrapper">
-	{% include navigation.html %}
+	{% include header.html %}
     {{ content }}
 	</div>
   </body>
