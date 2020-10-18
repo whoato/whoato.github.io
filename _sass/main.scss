@@ -38,10 +38,10 @@
 html {
 	background-color: OldLace;
 }
-.wrapper{ /* 본문 내용 */
-		width: 50rem;
-		margin: auto;
-		padding: 0.1rem 0;
+.wrapper { /* 본문 내용 */
+	width: 50rem;
+	margin: auto;
+	padding: 0.1rem 0;
 }
 a {
 	text-decoration: none;
@@ -50,17 +50,22 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-.contents {
+.posttitle {
 	color: #102029;
 	font-family: 'Nanum Gothic', sans-serif;
-	padding: 1rem;
-	margin: auto;
-	line-height: 1.5em;
 }
-p {
+.postcontent {
 	color: #102029;
 	text-align: justify;
-	font-family: 'Nanum Myeongjo', serif;
-	padding: 0.1rem 0;
 	margin: 0.6rem;
+	line-height: 2rem;
+}
+.postcontent li {
+	margin-left: -1rem;
+}
+.site-footer {
+	width: 50rem;
+	margin: auto;
+	padding: 0.1rem 0;
+	text-align: right;
 }
