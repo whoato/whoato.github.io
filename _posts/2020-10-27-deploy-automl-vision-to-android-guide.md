@@ -1,13 +1,10 @@
 ---
 published: true
----
----
 layout: post
 author: me
-title: "안드로이드에 AutoML 비전 텐서플로우 라이트 모델 배포"
+title: 안드로이드에 AutoML 비전 텐서플로우 라이트 모델 배포
 category: AutoML
 ---
-
 #### kr
 
 # 안드로이드에 AutoML 비전 텐서플로우 라이트 모델 배포
