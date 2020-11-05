@@ -20,7 +20,7 @@ $ sudo apt-get dist-upgrade
 
 ## Anaconda 설치
 
-[install](https://www.anaconda.com/products/individual)
+[install](https://www.anaconda.com/products/individual)<br>
 [hash](https://docs.anaconda.com/anaconda/install/hashes/all/)
 
 linux installer를 설치한 후 데이터 무결성 확인
