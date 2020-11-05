@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 author: me
 title: 키비 빌드 환경 설정
