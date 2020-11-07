@@ -2,8 +2,10 @@
   link: /about.html
 - name: Home
   link: /
-- name: Blog
+- name: Programming
   link: /blog.html
+- name: Prose
+  link: /404.html
 
 # - name: Staff
 #  link: /staff.html

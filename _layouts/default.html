@@ -8,11 +8,16 @@
 	<link rel="stylesheet" href="{{ root_url }}/assets/css/syntax.css">
   </head>
   
-  <body>
-	<div class="wrapper">
+  <header>
 	{% include header.html %}
+  </header>
+  <hr id="line"/>
+  <body>
+	<div class="wrapper" noshade>
     {{ content }}
 	</div>
   </body>
-  {% include footer.html %}
+  <footer>
+	{% include footer.html %}
+  </footer>
 </html>

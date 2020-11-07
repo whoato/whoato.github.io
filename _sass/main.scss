@@ -1,13 +1,17 @@
-.title {
-	text-align: center;
-	color: #82d5a0;
-	font-size: 9rem;
-	letter-spacing: 0.05em;
+html {
 	font-family: 'Montserrat', 'malgun gothic', 'Helvetica Neue', "Arial", sans-serif;
-	text-decoration-line: underline;
-	text-decoration-style: solid;
-	text-shadow: 0.1em 0.1em #82d5a0;
-	margin-top: 0rem;
+	background-color: #f9f9ff;
+}
+header {
+	width: 70rem;
+	margin: auto;
+	padding: 0.1rem 0;
+}
+.title {
+	text-align: left;
+	font-size: 2rem;
+	letter-spacing: 0.05em;
+	margin-top: 1rem;
 	font-weight: bold;
 }
 .title a {
@@ -16,11 +20,10 @@
 .navlinks {
 	text-align: right;
 	font-weight: bold;
-	font-size: 2rem;
-	text-shadow: 0.1em 0.1em #82d5a0;
+	font-size: 1.5rem;
 	text-transform: lowercase;
-	margin-bottom: -1rem;
-	font-family: 'Montserrat', 'malgun gothic', 'Helvetica Neue', "Arial", sans-serif;
+	margin-top: -2.0rem;
+	word-spacing: .5rem;
 }
 .current {
 	color: #102029;
@@ -28,8 +31,10 @@
 .others {
 	color: #306685;
 }
-html {
-	background-color: #fffaf0;
+#line {
+	width: 70rem;
+	color: #5555A0;
+	margin-top: 2rem;
 }
 .wrapper { /* 본문 내용 */
 	width: 50rem;
@@ -47,10 +52,7 @@ th, td {
 
 a {
 	text-decoration: none;
-	color: #82d5a0;
-}
-a:hover {
-	text-decoration: underline;
+	color: #306685;
 }
 .posttitle {
 	color: #102029;
@@ -70,4 +72,23 @@ a:hover {
 	margin: auto;
 	padding: 0.1rem 0;
 	text-align: right;
+}
+.collapsible {
+	background-color: transparent;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+}
+.collcontent {
+	display: none;
+	overflow: hidden;
+	background-color: transparent
+}
+footer {
+	text-align: right;
+	width: 70rem;
+	margin: auto;
+	padding: 2rem 0;
 }

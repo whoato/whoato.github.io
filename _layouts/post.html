@@ -5,12 +5,7 @@ layout: default
 <div class="postcontent">
 <p>
   {{ page.date | date_to_long_string: "ordinal" }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  <!--
-  {% if author %}
-    - <a href="{{ author.url }}" >{{ author.name }}</a>
-  {% endif %}
-  -->
+  - {{page.categories | join: ', '}}
 </p>
 
 {{ content }}
