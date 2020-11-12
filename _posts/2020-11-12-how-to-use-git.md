@@ -116,12 +116,12 @@ $ git commit --amend
 
 ## Windows에서 clone 시 Authentication failed 에러 해결
 
-(https://d2fault.github.io/2020/01/15/20200115-resolve-authentication-failure-on-git-clone/)
+[링크](https://d2fault.github.io/2020/01/15/20200115-resolve-authentication-failure-on-git-clone/)
 
 ## GitLab 연동하기
 
-(https://tkddlf4209.blog.me/220737393340)
+[링크](https://tkddlf4209.blog.me/220737393340)
 
 ## GitLab with Android Studio
 
-(http://blog.naver.com/tkddlf4209/220714074459)
+[링크](http://blog.naver.com/tkddlf4209/220714074459)
