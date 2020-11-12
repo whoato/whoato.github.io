@@ -20,9 +20,9 @@ Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 
 구글 계정으로 로그인하시면 우측 상단에 콘솔 버튼이 있습니다.<br>
 클릭합니다.
 
-![automl1]({{site.baseurl}}/_posts/automl1.PNG)
+![automl1]({{"/assets/img/automl//automl1.PNG"| relative_url}})
 
-![automl2]({{site.baseurl}}/_posts/automl2.PNG)
+![automl2]({{"/assets/img/automl//automl2.PNG"| relative_url}})
 
 국가는 자신의 국가로 설정하고<br>
 서비스 약관에 체크한 후 동의 및 계속하기를 누릅니다.
@@ -32,16 +32,16 @@ Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 
 ## 2. 프로젝트 생성
 Vision을 사용할 프로젝트를 하나 만듭니다.
 
-![automl3]({{site.baseurl}}/_posts/automl3.PNG)
+![automl3]({{"/assets/img/automl//automl3.PNG"| relative_url}})
 
 좌측 상단에서 프로젝트 선택을 누르면 창이 하나 뜹니다.<br>
 새 프로젝트를 누릅니다.
 
-![automl4]({{site.baseurl}}/_posts/automl4.PNG)
+![automl4]({{"/assets/img/automl//automl4.PNG"| relative_url}})
 
 프로젝트 이름을 정하고 만들기를 누릅니다.
 
-![automl5]({{site.baseurl}}/_posts/automl5.PNG)
+![automl5]({{"/assets/img/automl//automl5.PNG"| relative_url}})
 
 우측에 다음과 같은 알림이 뜨면 성공입니다.<br>
 프로젝트 선택을 누릅니다.
