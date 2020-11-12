@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 author: me
 title: 깃 사용법
@@ -125,8 +125,3 @@ https://tkddlf4209.blog.me/220737393340
 ## GitLab with Android Studio
 
 http://blog.naver.com/tkddlf4209/220714074459
-
-
-
-
-
