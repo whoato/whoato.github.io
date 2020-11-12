@@ -169,4 +169,22 @@ label은 라벨 이름입니다.
 
 계속을 누르면 이미지 탭에 업로드한 학습용 사진들이 불러와집니다. (양에 따라서 로딩이 5 ~ 30분 정도 걸립니다.)
 
+![automl24]({{site.baseurl}}/_posts/automl24.PNG)
+
+모든 이미지가 준비되면 위 사진처럼 보입니다.<br>
+라벨링이 제대로 되었는지 확인하고 학습을 진행합니다.
+
+![automl25]({{site.baseurl}}/_posts/automl25.PNG)
+
+AutoML이 임의로 학습용/검증용/테스트용 사진을 나눈 것을 확인할 수 있습니다.<br>
+학습을 진행합니다.
+
+![automl26]({{site.baseurl}}/_posts/automl26.PNG)
+
+텐서플로우 라이트 모델로 배포할 것이기 때문에 Edge를 선택하였습니다.<br>
+높은 정확성을 원한다면 Higher accuracy를 선택하고, 빠른 인식을 원한다면 Faster predictions를, 균형잡힌 모델을 원한다면 Best tradeoff 를 선택합니다.<br>
+학습시간을 AutoML이 권장해줍니다. AutoML은 단위시간당 8개의 노드를 동시에 사용합니다.<br>
+따라서 8 node hour는 약 1시간입니다.<br>
+권장 시간은 3 node hours이므로 약 3/8시간(22분 30초)동안 학습하게 됩니다.
+
 
