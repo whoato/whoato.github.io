@@ -143,7 +143,7 @@ set은 학습용 TRAIN set, 검증용 VALIDATION set, 테스트용 TEST set을 �
 AutoML은 사용자가 세트를 지정해주지 않으면 임의로 지정해주기 때문에 굳이 정해주지 않아도 됩니다.
 
 image_path는 데이터 셋 사진의 경로입니다.<br>
-만들어준 버킷의 이름을 <bucket_name>에 넣으시면 됩니다.
+만들어준 버킷의 이름을 **<bucket_name>**에 넣으시면 됩니다.
 
 label은 라벨 이름입니다.
 
