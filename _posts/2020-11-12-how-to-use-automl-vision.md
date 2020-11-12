@@ -22,7 +22,7 @@ Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 
 
 ![automl1]({{"/assets/img/automl//automl1.PNG"| relative_url}}){: width="80%" height="300"}
 
-![automl2]({{"/assets/img/automl//automl2.PNG"| relative_url}}){: width="80%" height="300"}
+![automl2]({{"/assets/img/automl//automl2.PNG"| relative_url}}){: .imgcenter}
 
 국가는 자신의 국가로 설정하고<br>
 서비스 약관에 체크한 후 동의 및 계속하기를 누릅니다.
