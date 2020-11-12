@@ -185,4 +185,13 @@ Google Cloud 온라인 예측을 사용하려면 Cloud hosted를, 엣지 모델�
 높은 정확성을 원한다면 Higher accuracy를 선택하고, 빠른 인식을 원한다면 Faster predictions를, 균형잡힌 모델을 원한다면 Best tradeoff 를 선택합니다.<br>
 학습시간을 AutoML이 권장해줍니다. AutoML은 단위시간당 8개의 노드를 동시에 사용합니다.<br>
 따라서 8 node hour는 약 1시간입니다.<br>
-권장 시간은 3 node hours이므로 약 3/8시간(22분 30초)동안 학습하게 됩니다.
+
+![automl]({{site.baseurl}}/_posts/automl27.PNG)
+![automl28]({{site.baseurl}}/_posts/automl28.PNG)
+
+학습이 완료되면 여러 평가 항목들을 볼 수 있습니다.<br>
+라벨별 테스트 세트의 참양성/거짓양성/거짓음성 결과 또한 확인할 수 있습니다.
+
+![automl29]({{site.baseurl}}/_posts/automl29.PNG)
+
+테스트 및 사용에서는 다양한 환경에서 사용할 수 있는 모델을 배포할 수 있습니다.
