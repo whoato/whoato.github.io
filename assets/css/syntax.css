@@ -2,7 +2,7 @@
 	font-family: 'D2 Coding', "Consolas", monospace;
 }
 .highlight table td { padding: 5px; }
-.highlight pre { padding: 0.5rem; margin: 1rem; }
+.highlight pre { padding: 0.5rem; margin: 0.5rem; }
 .highlight, .highlight .w {
   color: #191970;
   background-color: #D5EFFF;
