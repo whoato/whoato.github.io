@@ -7,9 +7,7 @@ category: AutoML
 ---
 # How To Use Google AutoML Vision
 
-두 달 동안 AutoML Vision을 사용한 기록입니다.<br>
-
-AutoML Vision은 누구나 쉽게 Image Classification 및 Object Detection 커스터마이징 모델을 만들어 배포할 수 있습니다.
+AutoML Vision은 누구나 쉽게 Image Classification 및 Object Detection 커스터마이징 모델을 만들어 배포할 수 있습니다.<br>
 온라인 배포 또한 가능하고 엣지 기기에서 사용할 수도 있습니다.
 
 Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 창을 사용할 수 있지만<br>
@@ -176,15 +174,15 @@ label은 라벨 이름입니다.
 
 ![automl25]({{site.baseurl}}/_posts/automl25.PNG)
 
+csv 파일에 set열을 제외하고 넣었기 때문에<br>
 AutoML이 임의로 학습용/검증용/테스트용 사진을 나눈 것을 확인할 수 있습니다.<br>
 학습을 진행합니다.
 
 ![automl26]({{site.baseurl}}/_posts/automl26.PNG)
 
+Google Cloud 온라인 예측을 사용하려면 Cloud hosted를, 엣지 모델로 배포하려면 Edge를 선택합니다<br>
 텐서플로우 라이트 모델로 배포할 것이기 때문에 Edge를 선택하였습니다.<br>
 높은 정확성을 원한다면 Higher accuracy를 선택하고, 빠른 인식을 원한다면 Faster predictions를, 균형잡힌 모델을 원한다면 Best tradeoff 를 선택합니다.<br>
 학습시간을 AutoML이 권장해줍니다. AutoML은 단위시간당 8개의 노드를 동시에 사용합니다.<br>
 따라서 8 node hour는 약 1시간입니다.<br>
 권장 시간은 3 node hours이므로 약 3/8시간(22분 30초)동안 학습하게 됩니다.
-
-
