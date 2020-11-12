@@ -20,7 +20,7 @@ Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 
 구글 계정으로 로그인하시면 우측 상단에 콘솔 버튼이 있습니다.<br>
 클릭합니다.
 
-![automl1]({{"/assets/img/automl//automl1.PNG"| relative_url}}){: width="80%" height="80%"}
+![automl1]({{"/assets/img/automl//automl1.PNG"| relative_url}}){: width="80%" height="300"}
 
 ![automl2]({{"/assets/img/automl//automl2.PNG"| relative_url}}){: width="80%" height="80%"}
 
