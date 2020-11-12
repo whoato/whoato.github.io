@@ -96,22 +96,22 @@ $ git reset HEAD (file_name)
 ```
 파일 이름을 비워두면 add한 파일 전체를 취소
 #### 2. Commit 취소
+staged 상태 & 워킹 디렉토리 보존
 ```
 $ git reset --soft HEAD^
 ```
-staged 상태 & 워킹 디렉토리 보존
+unstaged 상태 & 워킹 디렉토리 보존
 ```
 $ git reset (--mixed) HEAD^
 ```
-unstaged 상태 & 워킹 디렉토리 보존
+unstaged 상태 & 워킹 디렉토리 삭제
 ```
 $ git reset --hard HEAD^
 ```
-unstaged 상태 & 워킹 디렉토리 삭제
+Commit 메시지 변경
 ```
 $ git commit --amend
 ```
-Commit 메시지 변경
 
 
 ## Windows에서 clone 시 Authentication failed 에러 해결
