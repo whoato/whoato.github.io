@@ -7,7 +7,7 @@ category: AutoML
 ---
 # How To Use Google AutoML Vision
 
-AutoML Vision은 누구나 쉽게 Image Classification 및 Object Detection 커스터마이징 모델을 만들어 배포할 수 있습니다.<br>
+AutoML Vision을 사용하면 누구나 쉽게 Image Classification 및 Object Detection 커스터마이징 모델을 만들어 배포할 수 있습니다.<br>
 온라인 배포 또한 가능하고 엣지 기기에서 사용할 수도 있습니다.
 
 Google Cloud는 UI로 구성된 콘솔 이외에 Cloud Shell이라는 명령어 창을 사용할 수 있지만<br>
