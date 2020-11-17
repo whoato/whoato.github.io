@@ -100,3 +100,4 @@ $ conda remove -n <env_name> --all
 
 [다른 방법](https://www.youtube.com/watch?v=Pi510YawopE)
 [또 다른 방법](https://noel-embedded.tistory.com/914)
+[또또 다른 방법](https://kkokkal.tistory.com/1328)
